@@ -1,0 +1,65 @@
+#wrap{
+    width: 1200px;
+    margin: auto;
+}
+li{
+    list-style-type: none;
+}
+
+body{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size: 32px;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+th{
+    font-size: 60px;
+    padding-right: 200px;
+    padding-left: 1400px;
+    padding-top: 100px;
+    
+
+}
+td{
+    font-size: 40px;
+    padding-top: 100px;
+}
+.nani input{
+    width: 1000px;
+    height: 80px;
+}
+#send{
+    width: 100px;
+    height: 50px;
+}
+#OR{
+    width: 400px;
+    height: 80px;
+    background-color: rgb(239, 239, 181);
+    margin: 40px auto;
+    display: block;
+    font-size: 30px;   
+}
+#dochi{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    padding: 150px;
+    padding-left: 40px;
+}
+#judgment{
+    text-align: center;
+    padding-top: 200px;
+}
+.btn_reload {
+	margin-bottom: 20px;
+}
+.fa fa-refresh true{
+    font-size: 50px;
+}

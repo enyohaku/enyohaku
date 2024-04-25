@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<script src="js/jquery-2.1.3.min.js"></script>
+<link rel="stylesheet" href="css/sample.css">
+<title>CHALLENGE OR NOT?</title>
+</head>
+<header>
+  <div id="wrap">
+  <h1><img src="img/tatenaga 2024-04-25 8.35.31.png" alt=""></h1>
+</header>
+<main>
+  <table class="nani">
+    <tr>
+      <th>What is your goal?</th>
+      <td><input type="text"style="font-size:40px;" id="name" 
+        name="name" required 
+      minlength="1" maxlength="40" 
+      size="60"  /></td>
+    </tr>
+    <!-- <tr>
+      <th>週に何回しますか？</th>
+      <td>
+      <input id="num" type="number">
+      
+      </td>
+    </tr> -->
+  </table>
+  <!-- <button id="OR">CHALLENGE 
+  </button> -->
+  <ul>
+    <li id="dochi"><img src="img/So...... Howabout today (1)のコピー.png" alt=""></li>
+  </ul>
+  <div id="judgment"><img src="img/have a rest.png" alt=""><img src="img/？.png"><img src="img/just do it!.png" alt=""></div>
+
+</main>
+<footer>
+<a onclick="window.location.reload(true);">
+	<i class="fa fa-refresh" aria-hidden="true"></i><span>ANOTHER 7 DAYS CHALLENGE</span>
+</a>
+</footer>
+</div>
+
+<html><img src="img/" alt=""></html>
+
+
+
+<script>
+let a = 7;
+let b = 0;
+let c = 7;
+let gameN = 0;
+$("#dochi").on("click",function(){
+    const a = Math.ceil(Math.random()*7);  //0～1小数点
+    console.log(a);
+    gameN++;
+    console.log(gameN);
+    if (gameN === 7) {
+    document.getElementById("dochi").style.pointerEvents = "none";}
+
+    if(a == 1){
+        $("#judgment").append('<img class="kaigyo" src = "./img/have a rest.png">');
+    }
+    if(a == 2){
+        $("#judgment").append('<img src = "./img/just do it!.png">');
+    }
+    if(a == 3){
+        $("#judgment").append('<img src = "./img/just do it!.png">');
+    }
+    if(a == 4){
+        $("#judgment").append('<img src = "./img/just do it!.png">');
+    }
+    if(a == 5){
+        $("#judgment").append('<img src = "./img/just do it!.png">');
+    }
+    if(a == 6){
+        $("#judgment").append('<img src = "./img/just do it!.png">');
+    }    
+    if(a == 7){
+        $("#judgment").append('<img src = "./img/just do it!.png">');
+    }
+});
+
+//入力した数字をbに入れる
+// $("#send").on("click",function(){
+//   b =$("#num").val();
+//   console.log(b)
+// });
+// $("#dochi").on("click",function(){
+//   const a = Math.ceil(Math.random()*7);
+//   if(a>b){
+//     $("#judgment").html("頑張ろう")
+//     a=a-1;
+//   }else{
+//     $("#judgment").html("おやすみ")
+
+//   }
+//   if(a==0){
+//     alert("お疲れ様でした"); 
+//   }
+// });
+
+// if(b>0)&&(a>0){
+
+// }
+// $("#bottom").on("click",function(){
+//   const a = Math.ceil(Math.random()*7);
+// console.log(a);
+// });
+
+
+// $("#bottom").on("click",function(){
+//   const a = Math.ceil(Math.random()*2);
+// console.log(a);
+// if(a == 1){
+//     $("#judgment").html("おやすみ")
+// }
+// if(a == 2){
+//   $("#judgment").html("頑張ろう")
+// }
+// });
+
+
+</script>
+</body>
+</html>
